@@ -7,14 +7,14 @@ from colorama import init
 init()
 from colorama import Fore as F
 
-cores = random.choice([Fore.WHITE, Fore.GREEN, Fore.RED, Fore.BLUE, Fore.BLACK, Fore.YELLOW, Fore.CYAN, Fore.MAGENTA])
+cores = random.choice([F.WHITE, F.GREEN, F.RED, F.BLUE, F.BLACK, F.YELLOW, F.CYAN, F.MAGENTA])
 lista = input("Lista que deseja usar: ")
 separa = input("Separador: ")
 os.system('clear')
 os.system('cls')
 print(cores + """
 	Facebook Account Checker
-	Made by Angeel
+	Made by Ang33l
 	Twitter > @anxelofsk8
 	""")
 
